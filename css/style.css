@@ -419,10 +419,14 @@ nav img {
 		overflow: hidden;
 	}
 
+	.lightwidget-widgetweb {
+		display: none;
+	}
 
-/*	.tocitiess {
-		margin-bottom: 30px;
-	}*/
+
+	/*	.tocitiess {
+			margin-bottom: 30px;
+		}*/
 
 	.flex-row {
 		display: -webkit-flex; /* Safari */
@@ -1132,7 +1136,8 @@ Media Queries
 
 
 		#instagram {
-			height: 830px;
+			height:  350px;
+			margin: 0px;
 
 		}
 

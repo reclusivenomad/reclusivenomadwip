@@ -205,9 +205,6 @@ nav img {
 	a:hover {
 		color: #849b88;
 		font-weight: 800;
-
-
-
 	}
 
 	.scrolled {
@@ -1061,6 +1058,8 @@ Media Queries
 
 	}
 
+
+
 	.grid-wrapper {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -1126,7 +1125,9 @@ Media Queries
 
 
 		#instagram {
-			height: 830px;
+			height:  350px;
+			margin: 0px;
+
 		}
 
 		nav h3 {

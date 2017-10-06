@@ -321,6 +321,7 @@ nav img {
 		.dropdowns {
 
 			min-height: 50px;
+			padding-bottom: 15px;
 		}
 
 		.dropdowns h2 {
@@ -748,7 +749,7 @@ Header
 header {
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	height: 340px;
+	height: 320px;
 	text-transform: capitalize;
 
 }

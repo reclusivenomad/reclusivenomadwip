@@ -507,10 +507,10 @@ nav img {
 		padding-top: 10px;
 	}
 
-	.share form button {
-		display: block;
+/*	.share form button {
+		display: flex;
 	}
-
+*/
 	/* Responsive images */
 
 
@@ -807,9 +807,9 @@ button:hover {
 }
 
 
-.contribute button {
+/*.contribute button {
 	margin-top: 20px;
-}
+}*/
 
 .tocities button {
 	padding-bottom: 10px;
@@ -1178,6 +1178,12 @@ Media Queries
 			padding: 10px;
 
 		}
+
+/*		.share form button {
+		flex-direction:row;
+		justify-content: center;
+		align-items:center;
+		}*/
 
 		.contribute {
 			flex-direction: column;

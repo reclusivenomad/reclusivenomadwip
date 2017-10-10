@@ -1010,6 +1010,27 @@ Media Queries
 
 	}
 
+		.grid-wrapper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		margin: 0 auto;
+		flex-direction: row;
+		align-items: center;
+		justify-content:center;
+
+	}
+
+
+
 	.article-container {
 		margin: 0;
 		max-height:100%;
@@ -1207,6 +1228,15 @@ padding: 5%;
 
 
 }
+
+	.grid-wrapper1 img {
+	display: relative;
+	width: 80%;
+	margin: 20px;
+
+
+
+	}
 
 	@media screen and (max-width: 450px) {
 		.col-1-6 {
